@@ -1,0 +1,88 @@
+.contact-section {
+  padding: 5rem 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.contact-section h1 {
+  text-align: center;
+  color: var(--primary);
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-section > p {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #5d4037;
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: 1.2rem;
+}
+
+.contact-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+/* Info Box */
+.contact-info {
+  flex: 1;
+  min-width: 300px;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(62, 39, 35, 0.1);
+  border-left: 5px solid var(--orange);
+}
+
+.contact-info h3 {
+  color: var(--primary);
+  font-family: var(--font-heading);
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+}
+
+.contact-info p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+/* Map Button Area */
+.map-container {
+  flex: 1;
+  min-width: 300px;
+}
+
+.btn-submit {
+  display: inline-block;
+  background: var(--primary);
+  color: #F4F1E8;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background: var(--accent);
+  color: #3E2723;
+}
+
+input, textarea {
+  background: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  font-family: var(--font-body);
+}

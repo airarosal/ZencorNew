@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Zencor helps Filipino farmers get better harvests with quality agricultural products." />
+  <title>Zencor | Zeal Ecological Nature Corporation</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+
+ <header class="navbar">
+  <div class="logo">
+    <img src="images/zencor-logo.png" alt="Zencor Logo">
+  </div>
+  <button class="hamburger" id="hamburger" aria-label="Toggle navigation">☰</button>
+  <nav class="nav-menu" id="nav-menu">
+    <ul>
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Helping Farmers Grow Better Crops.</h1>
+        <p>Since 2015, we have been helping farmers across the Philippines get harvest after harvest using safe and effective products.</p>
+        <a href="products.html" class="btn-primary">See Our Products</a>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about-container">
+        <div class="about-text">
+          <h2>Partnerships that Grow.</h2>
+          <p>Zencor provides trusted agricultural inputs to help you achieve a healthier and stronger crop yield. We are committed to solutions that work for you and care for the land.</p>
+          <a href="about.html" class="btn-outline">Read Our Story</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="features">
+      <h2>How We Help You</h2>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <img src="images/eco.jpg" alt="Eco Solutions">
+          <h3>Soil-Friendly Options</h3>
+          <p>Solutions that promote healthy soil for sustainable farming.</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/growth.jpg" alt="Crop Growth">
+          <h3>Better Yields</h3>
+          <p>Effective products to improve plant health and increase your harvest.</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/sustainablefarming.jpg" alt="Sustainable Farming">
+          <h3>Farmer Support</h3>
+          <p>We are here to help you achieve productivity season after season.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<footer class="footer">
+  <div class="footer-container">
+    <p>© 2025 Zencor | Zeal Ecological Nature Corporation</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/share/WHDDPJVZPULnqZBW/?mibextid=LQQJ4d" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="mailto:zencor2015@gmail.com"><img src="images/email.png" alt="Email"></a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('nav-menu');
+  if(hamburger){ hamburger.addEventListener('click', () => { navMenu.classList.toggle('show'); }); }
+</script>
+
+</body>
+</html>
