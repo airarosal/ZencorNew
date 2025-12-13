@@ -45,15 +45,15 @@ I made sure to follow the checklist for On-Page SEO:
 └── images/           # Logo and photos
 
 💻 How to Run Locally
-Follow these steps to set up the project on your machine:
+Follow these steps to set up the project on your device:
 
-Download the Code:
+1. Download the Code:
 
 Click the green <> Code button at the top right of this repository.
 
 Select Download ZIP.
 
-Extract the Files:
+2. Extract the Files:
 
 Go to your computer's Downloads folder.
 
@@ -61,7 +61,7 @@ Right-click the downloaded ZIP file and select Extract All... (or use your prefe
 
 Choose a location to save the folder (e.g., your Desktop or Documents) and click Extract.
 
-Open in Visual Studio Code:
+3. Open in Visual Studio Code:
 
 Launch the Visual Studio Code application.
 
@@ -69,7 +69,7 @@ Click on File in the top menu bar, then select Open Folder....
 
 Navigate to the folder you just extracted and click Select Folder.
 
-Launch in Browser:
+4. Launch in Browser:
 
 In the VS Code sidebar (Explorer view), look for the file named index.html.
 
@@ -77,8 +77,6 @@ Open your preferred web browser (Google Chrome, Microsoft Edge, etc.).
 
 Click and drag the index.html file from VS Code and drop it directly into your browser tab to view the website.
 
-📸 Screenshots
-(You can upload screenshots of your site here later)
 
 👤 Author
 Rosal, Aira Mae T.
