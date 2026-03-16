@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zencor | Who We Are</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">
+      <img src="images/zencor-logo.png" alt="Zencor Logo">
+    </div>
+    <nav class="nav-menu" id="nav-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="features-hero">
+      <div class="hero-text">
+        <h1>Your Trusted Partner in Farming.</h1>
+        <p>Serving Filipino farmers with quality products since 2015.</p>
+      </div>
+    </section>
+
+    <section class="mission-vision">
+      <div class="mv-container">
+        <div class="mv-box">
+          <h2>Our Mission</h2>
+          <p>To help farmers across the country get better harvests using safe and effective agricultural products that take care of the soil.</p>
+        </div>
+        <div class="mv-box">
+          <h2>Our Vision</h2>
+          <p>To be the most trusted partner for agriculture in the Philippines, known for good service and reliable products.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-story-split">
+      <div class="story-container">
+        <div class="story-text">
+          <h2>Our Story</h2>
+          <p>
+            Zencor started in 2015 right here in Pampanga with a simple goal: to help local farmers deal with their daily challenges in the field.
+          </p>
+          <p>
+            We saw how hard it was for farmers to fight pests and poor soil conditions. We wanted to offer solutions that actually work without harming the land they rely on. Today, we are proud to support our farming partners throughout the Philippines with the products they need for a healthy and bountiful harvest.
+          </p>
+        </div>
+        <div class="story-image">
+          <img src="images/zencorteam.jpg" alt="The Zencor Team"> 
+        </div>
+      </div>
+    </section>
+
+    <section class="core-values">
+      <h2>What We Believe In</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <h3>🌱 Caring for the Land</h3>
+          <p>We choose products that are effective but also safe for the environment, so the soil stays healthy for years to come.</p>
+        </div>
+        <div class="value-card">
+          <h3>🤝 Being Honest</h3>
+          <p>We believe in fair pricing and selling only what you truly need. Your trust is important to us.</p>
+        </div>
+        <div class="value-card">
+          <h3>🚀 Always Improving</h3>
+          <p>Farming changes, and so do we. We keep looking for better solutions to help you grow more.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section">
+      <h2>Zencor in Action</h2>
+      <p class="gallery-sub">Real results from real farmers.</p>
+      <div class="gallery-grid">
+        <img src="images/codenflory.jpg" alt="Farmer in field">
+        <img src="images/zenfosinate.jpg" alt="Products on display">
+        <img src="images/zengrow.jpg" alt="Successful harvest">
+        <img src="images/ezout.jpg" alt="Successful harvest">
+      </div>
+    </section>
+
+    <section class="stats-bar">
+      <div class="stat">
+        <span class="number">10+</span>
+        <span class="label">Years of Service</span>
+      </div>
+      <div class="stat">
+        <span class="number">100%</span>
+        <span class="label">Farmer Focused</span>
+      </div>
+      <div class="stat">
+        <span class="number">Nationwide</span>
+        <span class="label">Reach</span>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <p>© 2025 Zencor | Zeal Ecological Nature Corporation</p>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/share/WHDDPJVZPULnqZBW/?mibextid=LQQJ4d" target="_blank"><img src="images/facebook.png" alt="Facebook"></a>
+        <a href="mailto:zencor2015@gmail.com"><img src="images/email.png" alt="Email"></a>
+      </div>
+    </div>
+  </footer>
+  
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+    if(hamburger){
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('show');
+        });
+    }
+  </script>
+
+</body>
+</html>
